@@ -33,8 +33,12 @@ public class HappyPet {
 	} else if (task==2){
 	feed();
 	}
-			// 6. If you determine the happiness level is large enough, tell the
-			//    user that he loves his pet and use break; to exit for loop.
+	if(happiness==80){
+	JOptionPane.showMessageDialog(null, "Your pet is happy!");
+	break;
+	}		
+	// 6. If you determine the happiness level is large enough, tell the
+	//    user that he loves his pet and use break; to exit for loop.
 
 }
 }
